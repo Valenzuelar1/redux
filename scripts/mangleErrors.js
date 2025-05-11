@@ -82,7 +82,7 @@ module.exports = babel => {
             path.node.argument.arguments[0].type === 'Identifier' ||
             path.node.argument.arguments[0].type === 'NumericLiteral' ||
             path.node.argument.arguments[0].type === 'ConditionalExpression' ||
-            path.node.argument.arguments[0].type === 'CallExpression'
+            path.node.argument.arguments[0].type === 'CallExpression' ||
           ) {
             return
           }
